@@ -1,0 +1,64 @@
+/********************** NAV *****************/
+
+.nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  z-index: 1;
+  left: 100px;
+  top: 60px;
+  width: 400px;
+}
+
+a {
+  font-family: 'ambroise-std', serif;
+  color: black;
+  text-decoration: none;
+}
+
+/********************** PRESENTATION *****************/
+
+.cover {
+  position: relative;
+  background-image: url(../IMAGES/gamedesign.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 760px;
+  top:115px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.titre{
+  position: absolute;
+  top: 145px;
+  color: white;
+  font-family:'ambroise-std', serif;
+  font-size: 80px;
+}
+.contexte{
+  position: absolute;
+  top:245px;
+  color: white;
+  font-family:'ambroise-std', serif;
+  font-size: 20px;
+  font-style: italic;
+}
+.résumé{
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  font-weight: 100;
+  font-family:'baskerville', serif;
+  font-size: 21px;
+  text-align: justify;
+  width: 70vw;
+  padding: 45px;
+
+  position: absolute;
+  top: 380px;
+}
+/********************** BODY *****************/
