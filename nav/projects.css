@@ -44,14 +44,26 @@ h2 {
   background-size: cover;
 }
 .project.second {
-  background-image: url(../IMAGES/abcdpourtous.jpg);
+  background-image: url(../IMAGES/gettheway.jpg);
   background-size: cover;
 }
 .project.third {
-  background-image: url(../IMAGES/toastap.jpg);
+  background-image: url(../IMAGES/paris2024.jpg);
   background-size: cover;
 }
 .project.fourth {
+  background-image: url(../IMAGES/NOMIMAGE.jpg);
+  background-size: cover;
+}
+.project.fifth {
+  background-image: url(../IMAGES/abcdpourtous.jpg);
+  background-size: cover;
+}
+.project.sixth {
+  background-image: url(../IMAGES/toastap.jpg);
+  background-size: cover;
+}
+.project.seventh {
   background-image: url(../IMAGES/gamedesign.jpg);
   background-size: cover;
 }
@@ -64,6 +76,7 @@ h2 {
   justify-content: center;
   align-items: center;
   position: relative;
+  transition: opacity 0.4s;
 }
 .filter:hover {
   opacity: 0.7;

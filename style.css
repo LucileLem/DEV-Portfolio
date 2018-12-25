@@ -6,6 +6,28 @@ body {
 .home {
 
 }
+
+
+/********************** NAV *****************/
+.nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  color: #D6CDCD;
+  font-family: 'luxus-brut', cursive;
+  font-size: 35px;
+  z-index: 1;
+  right: 20px;
+  top: 30px;
+  width: 500px;
+}
+
+a {
+  color: #D6CDCD;
+  font-family: 'luxus-brut', cursive;
+  text-decoration: none;
+}
+
 /***** TITLE *****/
 .title {
   position: relative;
@@ -49,11 +71,17 @@ body {
 .showcase .line {
   display: flex;
   justify-content: space-around;
-  width: 1600px;
+  width: 100%;
 }
+@media (max-width: 900px) {
+  .showcase .line {
+    flex-direction: column;
+  }
+}
+
 .line .project {
   position: relative;
-  width: 550px;
+  width: 35%;
   height: 320px;
   background: black;
 }
@@ -88,7 +116,7 @@ body {
   background-size: cover;
 }
 .filter{
-  width: 550px;
+  width: 100%;
   height: 320px;
   background: black;
   opacity: 0;
@@ -96,9 +124,10 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  transition: opacity 0.4s;
 }
 .filter:hover {
-  opacity: 0.7; 
+  opacity: 0.7;
 }
 .current {
   color: white;
@@ -111,22 +140,18 @@ body {
   height: 100%;
   position: absolute;
 }
-/********************** NAV *****************/
-.nav {
-  position: absolute;
-  display: flex;
-  justify-content: space-around;
-  color: #D6CDCD;
-  font-family: 'luxus-brut', cursive;
-  font-size: 35px;
-  z-index: 1;
-  right: 20px;
-  top: 30px;
-  width: 500px;
-}
 
-a {
+/********************** FOOTER *****************/
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#1C1717;
+  width: 100vw;
+  height: 70px;
+  font-size: 25px;
   color: #D6CDCD;
-  font-family: 'luxus-brut', cursive;
-  text-decoration: none;
+  font-family: 'ambroise-std', cursive;
 }
