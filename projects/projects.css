@@ -29,7 +29,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .titre{
@@ -76,9 +75,12 @@ a {
 .paris2024 {
   background-image: url(../IMAGES/paris2024.jpg);
 }
-.logoparis2024
-{
-  width: 20%;
+
+.filter{
+  position: absolute;
+  width: 100vw;
+  height: 760px;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 /********************** BODY *****************/
@@ -91,7 +93,6 @@ h1 {
   font-family:'ambroise-std', serif;
   font-size: 2em;
 }
-
 .contenu{
   color: black;
   font-weight: 100;
@@ -108,7 +109,53 @@ h1 {
   position: absolute;
   top: 1000px;
 }
-
+strong {
+  font-weight: 550;
+  font-family:'baskerville', serif;
+  font-size: 21px;
+}
+em {
+  font-style: italic;
+  font-family:'baskerville', serif;
+  font-size: 21px;
+}
 p {
   width: 90vw;
+}
+/************** PARIS2024 **************/
+
+.logoparis2024
+{
+  width: 20%;
+}
+.croquislogo {
+  width: 80%;
+}
+.diagrammes {
+  width: 80%;
+}
+.arborescence {
+  width: 80%;
+}
+.personas {
+  width: 60%;
+}
+.maquettes {
+  width: 70%;
+}
+
+/********************** FOOTER *****************/
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#1C1717;
+  width: 100vw;
+  height: 70px;
+  bottom: 0;
+  font-size: 25px;
+  color: #D6CDCD;
+  font-family: 'ambroise-std', cursive;
 }

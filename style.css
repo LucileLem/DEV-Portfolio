@@ -22,7 +22,7 @@ body {
   width: 500px;
 }
 
-a {
+a{
   color: #D6CDCD;
   font-family: 'luxus-brut', cursive;
   text-decoration: none;
@@ -151,6 +151,12 @@ a {
   background-color:#1C1717;
   width: 100vw;
   height: 70px;
+  font-size: 25px;
+  color: #D6CDCD;
+  font-family: 'ambroise-std', cursive;
+}
+
+.instagram, .cv, .contact{
   font-size: 25px;
   color: #D6CDCD;
   font-family: 'ambroise-std', cursive;
