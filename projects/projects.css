@@ -11,7 +11,7 @@
   width: 400px;
 }
 
-a {
+.nav a {
   font-family: 'ambroise-std', serif;
   color: black;
   text-decoration: none;
@@ -156,6 +156,6 @@ p {
   height: 70px;
   bottom: 0;
   font-size: 25px;
-  color: #D6CDCD;
+  color: white;
   font-family: 'ambroise-std', cursive;
 }
