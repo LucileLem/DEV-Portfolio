@@ -38,6 +38,23 @@ h2 {
   color: #707070;
   font-family: 'ambroise-std', serif;
 }
+@media (max-width: 768px) {
+  .categorie {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+/* euuuh ça marche pas tout ça  */
+@media (max-width: 768px) {
+  .line .project{
+    width: 100vw;
+  }
+}
+@media (max-width: 768px) {
+  .showcase {
+    flex-direction: column;
+  }
+}
 
 .project.first {
   background-image: url(../IMAGES/abcterroirs.jpg);

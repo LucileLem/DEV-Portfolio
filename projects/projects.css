@@ -59,6 +59,15 @@
   position: absolute;
   top: 380px;
 }
+
+.images_mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  .images_mobile {
+    display: block;
+  }
+}
 /********* IMAGES HEADER *********/
 .abcterroirs {
   background-image: url(../IMAGES/abcterroirs.jpg);
