@@ -84,7 +84,9 @@
 .paris2024 {
   background-image: url(../IMAGES/paris2024.jpg);
 }
-
+.gettheway {
+  background-image: url(../IMAGES/gettheway.jpg);
+}
 .filter{
   position: absolute;
   width: 100vw;
@@ -129,7 +131,7 @@ em {
   font-size: 21px;
 }
 p {
-  width: 90vw;
+  width: 70vw;
 }
 /************** PARIS2024 **************/
 
@@ -150,7 +152,7 @@ p {
   width: 60%;
 }
 .maquettes {
-  width: 70%;
+  width: 40%;
 }
 
 /********************** FOOTER *****************/

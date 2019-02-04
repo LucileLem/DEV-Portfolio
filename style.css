@@ -22,6 +22,10 @@ body {
   width: 500px;
 }
 
+p{
+  color: white;
+  font-size: 20px; 
+}
 a{
   color: #D6CDCD;
   font-family: 'luxus-brut', cursive;
